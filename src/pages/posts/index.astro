@@ -1,7 +1,6 @@
 ---
 const response = await fetch("http://localhost:1337/api/posts?populate=*")
 const { data } = await response.json()
-console.log(data[2].attributes.image.data.attributes.formats.large)
 ---
 
 <h1> The blog </h1>
